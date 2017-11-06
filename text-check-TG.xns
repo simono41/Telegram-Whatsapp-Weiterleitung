@@ -1,0 +1,542 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2017:11:06 
+# Time:                   21:10:10 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               The X.Org Foundation 
+# X vendor release:       11902000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             4.9.41-v7+ 
+# OS Version:             #1023 SMP Tue Aug 8 16:00:15 BST 2017 
+# Machine:                armv7l 
+# Nodename:               raspberrypi 
+# Display name:           :0.0
+# Dimension:              1920x1080
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record --mouse --keyboard -o text-check-TG.xns -sk q 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0.0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file text-check-TG.xns
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         q
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        -1
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1920x1080
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 0
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0xdeba40
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      2
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            2-6 
+error-range                   0-0 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            66-71 
+error-range                   0-0 
+7,6,440,783,0,0,0,2268079,4,'Virtual core XTEST pointer'
+7,6,440,779,0,0,0,2268094,4,'Virtual core XTEST pointer'
+7,6,440,778,0,0,0,2268104,4,'Virtual core XTEST pointer'
+7,6,440,777,0,0,0,2268110,4,'Virtual core XTEST pointer'
+7,6,440,776,0,0,0,2268136,4,'Virtual core XTEST pointer'
+7,6,440,774,0,0,0,2268150,4,'Virtual core XTEST pointer'
+7,6,440,773,0,0,0,2268176,4,'Virtual core XTEST pointer'
+7,6,440,772,0,0,0,2268201,4,'Virtual core XTEST pointer'
+7,6,439,769,0,0,0,2268203,4,'Virtual core XTEST pointer'
+7,6,438,769,0,0,0,2268209,4,'Virtual core XTEST pointer'
+7,6,438,768,0,0,0,2268227,4,'Virtual core XTEST pointer'
+7,6,438,766,0,0,0,2268230,4,'Virtual core XTEST pointer'
+7,6,437,764,0,0,0,2268231,4,'Virtual core XTEST pointer'
+7,6,437,762,0,0,0,2268240,4,'Virtual core XTEST pointer'
+7,6,436,761,0,0,0,2268259,4,'Virtual core XTEST pointer'
+7,6,435,758,0,0,0,2268262,4,'Virtual core XTEST pointer'
+7,6,433,755,0,0,0,2268263,4,'Virtual core XTEST pointer'
+7,6,433,753,0,0,0,2268272,4,'Virtual core XTEST pointer'
+7,6,431,750,0,0,0,2268290,4,'Virtual core XTEST pointer'
+7,6,430,747,0,0,0,2268293,4,'Virtual core XTEST pointer'
+7,6,427,742,0,0,0,2268294,4,'Virtual core XTEST pointer'
+7,6,426,736,0,0,0,2268311,4,'Virtual core XTEST pointer'
+7,6,424,731,0,0,0,2268314,4,'Virtual core XTEST pointer'
+7,6,421,723,0,0,0,2268319,4,'Virtual core XTEST pointer'
+7,6,416,710,0,0,0,2268335,4,'Virtual core XTEST pointer'
+7,6,413,701,0,0,0,2268337,4,'Virtual core XTEST pointer'
+7,6,406,686,0,0,0,2268343,4,'Virtual core XTEST pointer'
+7,6,399,676,0,0,0,2268352,4,'Virtual core XTEST pointer'
+7,6,390,659,0,0,0,2268360,4,'Virtual core XTEST pointer'
+7,6,383,645,0,0,0,2268372,4,'Virtual core XTEST pointer'
+7,6,373,627,0,0,0,2268375,4,'Virtual core XTEST pointer'
+7,6,360,605,0,0,0,2268387,4,'Virtual core XTEST pointer'
+7,6,349,584,0,0,0,2268390,4,'Virtual core XTEST pointer'
+7,6,335,560,0,0,0,2268401,4,'Virtual core XTEST pointer'
+7,6,322,537,0,0,0,2268413,4,'Virtual core XTEST pointer'
+7,6,313,511,0,0,0,2268416,4,'Virtual core XTEST pointer'
+7,6,302,492,0,0,0,2268426,4,'Virtual core XTEST pointer'
+7,6,288,467,0,0,0,2268430,4,'Virtual core XTEST pointer'
+7,6,278,446,0,0,0,2268445,4,'Virtual core XTEST pointer'
+7,6,264,427,0,0,0,2268446,4,'Virtual core XTEST pointer'
+7,6,253,408,0,0,0,2268457,4,'Virtual core XTEST pointer'
+7,6,239,388,0,0,0,2268462,4,'Virtual core XTEST pointer'
+7,6,228,368,0,0,0,2268473,4,'Virtual core XTEST pointer'
+7,6,220,351,0,0,0,2268481,4,'Virtual core XTEST pointer'
+7,6,206,335,0,0,0,2268494,4,'Virtual core XTEST pointer'
+7,6,195,321,0,0,0,2268496,4,'Virtual core XTEST pointer'
+7,6,186,305,0,0,0,2268509,4,'Virtual core XTEST pointer'
+7,6,175,294,0,0,0,2268512,4,'Virtual core XTEST pointer'
+7,6,165,284,0,0,0,2268520,4,'Virtual core XTEST pointer'
+7,6,159,272,0,0,0,2268533,4,'Virtual core XTEST pointer'
+7,6,149,263,0,0,0,2268536,4,'Virtual core XTEST pointer'
+7,6,143,251,0,0,0,2268544,4,'Virtual core XTEST pointer'
+7,6,136,242,0,0,0,2268557,4,'Virtual core XTEST pointer'
+7,6,129,236,0,0,0,2268560,4,'Virtual core XTEST pointer'
+7,6,126,227,0,0,0,2268572,4,'Virtual core XTEST pointer'
+7,6,122,219,0,0,0,2268575,4,'Virtual core XTEST pointer'
+7,6,118,213,0,0,0,2268588,4,'Virtual core XTEST pointer'
+7,6,114,205,0,0,0,2268590,4,'Virtual core XTEST pointer'
+7,6,108,198,0,0,0,2268603,4,'Virtual core XTEST pointer'
+7,6,107,192,0,0,0,2268606,4,'Virtual core XTEST pointer'
+7,6,101,185,0,0,0,2268617,4,'Virtual core XTEST pointer'
+7,6,99,180,0,0,0,2268630,4,'Virtual core XTEST pointer'
+7,6,96,175,0,0,0,2268633,4,'Virtual core XTEST pointer'
+7,6,95,171,0,0,0,2268641,4,'Virtual core XTEST pointer'
+7,6,94,168,0,0,0,2268654,4,'Virtual core XTEST pointer'
+7,6,92,165,0,0,0,2268656,4,'Virtual core XTEST pointer'
+7,6,91,163,0,0,0,2268669,4,'Virtual core XTEST pointer'
+7,6,89,159,0,0,0,2268671,4,'Virtual core XTEST pointer'
+7,6,86,155,0,0,0,2268683,4,'Virtual core XTEST pointer'
+7,6,85,152,0,0,0,2268686,4,'Virtual core XTEST pointer'
+7,6,85,151,0,0,0,2268695,4,'Virtual core XTEST pointer'
+7,6,84,149,0,0,0,2268703,4,'Virtual core XTEST pointer'
+7,6,84,146,0,0,0,2268711,4,'Virtual core XTEST pointer'
+7,6,81,144,0,0,0,2268723,4,'Virtual core XTEST pointer'
+7,6,81,141,0,0,0,2268727,4,'Virtual core XTEST pointer'
+7,6,80,139,0,0,0,2268736,4,'Virtual core XTEST pointer'
+7,6,80,135,0,0,0,2268749,4,'Virtual core XTEST pointer'
+7,6,79,133,0,0,0,2268751,4,'Virtual core XTEST pointer'
+7,6,79,129,0,0,0,2268765,4,'Virtual core XTEST pointer'
+7,6,79,126,0,0,0,2268766,4,'Virtual core XTEST pointer'
+7,6,78,122,0,0,0,2268775,4,'Virtual core XTEST pointer'
+7,6,78,121,0,0,0,2268792,4,'Virtual core XTEST pointer'
+7,6,78,117,0,0,0,2268794,4,'Virtual core XTEST pointer'
+7,6,78,115,0,0,0,2268814,4,'Virtual core XTEST pointer'
+7,6,77,112,0,0,0,2268821,4,'Virtual core XTEST pointer'
+7,6,75,110,0,0,0,2268824,4,'Virtual core XTEST pointer'
+7,6,75,109,0,0,0,2268824,4,'Virtual core XTEST pointer'
+7,6,75,108,0,0,0,2268834,4,'Virtual core XTEST pointer'
+7,6,75,104,0,0,0,2268839,4,'Virtual core XTEST pointer'
+7,6,75,103,0,0,0,2268856,4,'Virtual core XTEST pointer'
+7,6,74,102,0,0,0,2268895,4,'Virtual core XTEST pointer'
+7,6,74,100,0,0,0,2268902,4,'Virtual core XTEST pointer'
+7,6,74,99,0,0,0,2268925,4,'Virtual core XTEST pointer'
+7,6,74,98,0,0,0,2268935,4,'Virtual core XTEST pointer'
+7,6,74,97,0,0,0,2268935,4,'Virtual core XTEST pointer'
+7,6,75,94,0,0,0,2268951,4,'Virtual core XTEST pointer'
+7,6,75,93,0,0,0,2268951,4,'Virtual core XTEST pointer'
+7,6,75,92,0,0,0,2268962,4,'Virtual core XTEST pointer'
+7,6,75,90,0,0,0,2268975,4,'Virtual core XTEST pointer'
+7,6,75,88,0,0,0,2268977,4,'Virtual core XTEST pointer'
+7,6,75,87,0,0,0,2268983,4,'Virtual core XTEST pointer'
+7,6,75,85,0,0,0,2268996,4,'Virtual core XTEST pointer'
+7,6,75,83,0,0,0,2268998,4,'Virtual core XTEST pointer'
+7,6,75,80,0,0,0,2269006,4,'Virtual core XTEST pointer'
+7,6,75,77,0,0,0,2269034,4,'Virtual core XTEST pointer'
+7,4,0,0,1,0,0,2269936,4,Virtual core XTEST pointer
+6,4,0,0,1,0,0,2269936,2,Virtual core pointer
+7,5,0,0,1,0,0,2270085,4,Virtual core XTEST pointer
+6,5,0,0,1,0,0,2270085,2,Virtual core pointer
+7,6,75,75,0,0,0,2270517,4,'Virtual core XTEST pointer'
+7,6,76,74,0,0,0,2270518,4,'Virtual core XTEST pointer'
+7,6,77,74,0,0,0,2270534,4,'Virtual core XTEST pointer'
+7,6,80,74,0,0,0,2270534,4,'Virtual core XTEST pointer'
+7,6,82,75,0,0,0,2270544,4,'Virtual core XTEST pointer'
+7,6,87,77,0,0,0,2270557,4,'Virtual core XTEST pointer'
+7,6,94,80,0,0,0,2270559,4,'Virtual core XTEST pointer'
+7,6,98,81,0,0,0,2270572,4,'Virtual core XTEST pointer'
+7,6,104,83,0,0,0,2270574,4,'Virtual core XTEST pointer'
+7,6,111,84,0,0,0,2270588,4,'Virtual core XTEST pointer'
+7,6,118,87,0,0,0,2270590,4,'Virtual core XTEST pointer'
+7,6,128,90,0,0,0,2270598,4,'Virtual core XTEST pointer'
+7,6,136,95,0,0,0,2270608,4,'Virtual core XTEST pointer'
+7,6,145,97,0,0,0,2270620,4,'Virtual core XTEST pointer'
+7,6,154,100,0,0,0,2270623,4,'Virtual core XTEST pointer'
+7,6,165,105,0,0,0,2270637,4,'Virtual core XTEST pointer'
+7,6,178,109,0,0,0,2270640,4,'Virtual core XTEST pointer'
+7,6,192,112,0,0,0,2270649,4,'Virtual core XTEST pointer'
+7,6,205,116,0,0,0,2270667,4,'Virtual core XTEST pointer'
+7,6,221,124,0,0,0,2270668,4,'Virtual core XTEST pointer'
+7,6,234,128,0,0,0,2270670,4,'Virtual core XTEST pointer'
+7,6,249,137,0,0,0,2270686,4,'Virtual core XTEST pointer'
+7,6,261,143,0,0,0,2270687,4,'Virtual core XTEST pointer'
+7,6,276,148,0,0,0,2270696,4,'Virtual core XTEST pointer'
+7,6,293,154,0,0,0,2270719,4,'Virtual core XTEST pointer'
+7,6,309,161,0,0,0,2270719,4,'Virtual core XTEST pointer'
+7,6,327,170,0,0,0,2270720,4,'Virtual core XTEST pointer'
+7,6,346,180,0,0,0,2270727,4,'Virtual core XTEST pointer'
+7,6,366,192,0,0,0,2270740,4,'Virtual core XTEST pointer'
+7,6,385,197,0,0,0,2270742,4,'Virtual core XTEST pointer'
+7,6,403,209,0,0,0,2270755,4,'Virtual core XTEST pointer'
+7,6,422,222,0,0,0,2270758,4,'Virtual core XTEST pointer'
+7,6,440,232,0,0,0,2270773,4,'Virtual core XTEST pointer'
+7,6,459,242,0,0,0,2270775,4,'Virtual core XTEST pointer'
+7,6,477,253,0,0,0,2270795,4,'Virtual core XTEST pointer'
+7,6,494,260,0,0,0,2270797,4,'Virtual core XTEST pointer'
+7,6,511,270,0,0,0,2270810,4,'Virtual core XTEST pointer'
+7,6,528,281,0,0,0,2270833,4,'Virtual core XTEST pointer'
+7,6,544,291,0,0,0,2270840,4,'Virtual core XTEST pointer'
+7,6,553,296,0,0,0,2270841,4,'Virtual core XTEST pointer'
+7,6,568,306,0,0,0,2270842,4,'Virtual core XTEST pointer'
+7,6,577,311,0,0,0,2270843,4,'Virtual core XTEST pointer'
+7,6,589,318,0,0,0,2270864,4,'Virtual core XTEST pointer'
+7,6,601,328,0,0,0,2270867,4,'Virtual core XTEST pointer'
+7,6,608,332,0,0,0,2270867,4,'Virtual core XTEST pointer'
+7,6,618,341,0,0,0,2270873,4,'Virtual core XTEST pointer'
+7,6,625,346,0,0,0,2270886,4,'Virtual core XTEST pointer'
+7,6,633,354,0,0,0,2270888,4,'Virtual core XTEST pointer'
+7,6,642,362,0,0,0,2270912,4,'Virtual core XTEST pointer'
+7,6,653,369,0,0,0,2270912,4,'Virtual core XTEST pointer'
+7,6,661,377,0,0,0,2270914,4,'Virtual core XTEST pointer'
+7,6,672,387,0,0,0,2270919,4,'Virtual core XTEST pointer'
+7,6,684,395,0,0,0,2270960,4,'Virtual core XTEST pointer'
+7,6,695,404,0,0,0,2270960,4,'Virtual core XTEST pointer'
+7,6,707,414,0,0,0,2270960,4,'Virtual core XTEST pointer'
+7,6,719,425,0,0,0,2270960,4,'Virtual core XTEST pointer'
+7,6,727,433,0,0,0,2270961,4,'Virtual core XTEST pointer'
+7,6,733,443,0,0,0,2270966,4,'Virtual core XTEST pointer'
+7,6,740,451,0,0,0,2270974,4,'Virtual core XTEST pointer'
+7,6,749,462,0,0,0,2270986,4,'Virtual core XTEST pointer'
+7,6,759,472,0,0,0,2270990,4,'Virtual core XTEST pointer'
+7,6,768,485,0,0,0,2270999,4,'Virtual core XTEST pointer'
+7,6,775,494,0,0,0,2271017,4,'Virtual core XTEST pointer'
+7,6,786,507,0,0,0,2271019,4,'Virtual core XTEST pointer'
+7,6,795,520,0,0,0,2271022,4,'Virtual core XTEST pointer'
+7,6,803,531,0,0,0,2271036,4,'Virtual core XTEST pointer'
+7,6,809,544,0,0,0,2271038,4,'Virtual core XTEST pointer'
+7,6,816,555,0,0,0,2271051,4,'Virtual core XTEST pointer'
+7,6,822,564,0,0,0,2271055,4,'Virtual core XTEST pointer'
+7,6,832,576,0,0,0,2271077,4,'Virtual core XTEST pointer'
+7,6,836,585,0,0,0,2271077,4,'Virtual core XTEST pointer'
+7,6,845,595,0,0,0,2271079,4,'Virtual core XTEST pointer'
+7,6,855,610,0,0,0,2271108,4,'Virtual core XTEST pointer'
+7,6,862,621,0,0,0,2271111,4,'Virtual core XTEST pointer'
+7,6,865,631,0,0,0,2271112,4,'Virtual core XTEST pointer'
+7,6,871,642,0,0,0,2271112,4,'Virtual core XTEST pointer'
+7,6,875,652,0,0,0,2271122,4,'Virtual core XTEST pointer'
+7,6,879,661,0,0,0,2271160,4,'Virtual core XTEST pointer'
+7,6,883,669,0,0,0,2271162,4,'Virtual core XTEST pointer'
+7,6,885,677,0,0,0,2271162,4,'Virtual core XTEST pointer'
+7,6,887,684,0,0,0,2271163,4,'Virtual core XTEST pointer'
+7,6,891,694,0,0,0,2271163,4,'Virtual core XTEST pointer'
+7,6,891,703,0,0,0,2271170,4,'Virtual core XTEST pointer'
+7,6,895,709,0,0,0,2271179,4,'Virtual core XTEST pointer'
+7,6,895,716,0,0,0,2271183,4,'Virtual core XTEST pointer'
+7,6,896,724,0,0,0,2271199,4,'Virtual core XTEST pointer'
+7,6,896,732,0,0,0,2271201,4,'Virtual core XTEST pointer'
+7,6,899,741,0,0,0,2271219,4,'Virtual core XTEST pointer'
+7,6,899,746,0,0,0,2271220,4,'Virtual core XTEST pointer'
+7,6,901,751,0,0,0,2271223,4,'Virtual core XTEST pointer'
+7,6,901,758,0,0,0,2271238,4,'Virtual core XTEST pointer'
+7,6,903,763,0,0,0,2271240,4,'Virtual core XTEST pointer'
+7,6,903,767,0,0,0,2271254,4,'Virtual core XTEST pointer'
+7,6,904,774,0,0,0,2271256,4,'Virtual core XTEST pointer'
+7,6,907,778,0,0,0,2271278,4,'Virtual core XTEST pointer'
+7,6,907,781,0,0,0,2271278,4,'Virtual core XTEST pointer'
+7,6,909,787,0,0,0,2271280,4,'Virtual core XTEST pointer'
+7,6,910,790,0,0,0,2271311,4,'Virtual core XTEST pointer'
+7,6,912,795,0,0,0,2271314,4,'Virtual core XTEST pointer'
+7,6,914,797,0,0,0,2271314,4,'Virtual core XTEST pointer'
+7,6,914,800,0,0,0,2271314,4,'Virtual core XTEST pointer'
+7,6,915,802,0,0,0,2271327,4,'Virtual core XTEST pointer'
+7,6,918,804,0,0,0,2271327,4,'Virtual core XTEST pointer'
+7,6,921,808,0,0,0,2271343,4,'Virtual core XTEST pointer'
+7,6,922,811,0,0,0,2271344,4,'Virtual core XTEST pointer'
+7,6,923,814,0,0,0,2271354,4,'Virtual core XTEST pointer'
+7,6,926,816,0,0,0,2271358,4,'Virtual core XTEST pointer'
+7,6,928,819,0,0,0,2271366,4,'Virtual core XTEST pointer'
+7,6,928,820,0,0,0,2271381,4,'Virtual core XTEST pointer'
+7,6,931,822,0,0,0,2271384,4,'Virtual core XTEST pointer'
+7,6,933,825,0,0,0,2271396,4,'Virtual core XTEST pointer'
+7,6,936,827,0,0,0,2271398,4,'Virtual core XTEST pointer'
+7,6,936,828,0,0,0,2271413,4,'Virtual core XTEST pointer'
+7,6,940,832,0,0,0,2271415,4,'Virtual core XTEST pointer'
+7,6,940,833,0,0,0,2271427,4,'Virtual core XTEST pointer'
+7,6,941,837,0,0,0,2271430,4,'Virtual core XTEST pointer'
+7,6,942,838,0,0,0,2271440,4,'Virtual core XTEST pointer'
+7,6,944,842,0,0,0,2271452,4,'Virtual core XTEST pointer'
+7,6,945,844,0,0,0,2271454,4,'Virtual core XTEST pointer'
+7,6,947,846,0,0,0,2271464,4,'Virtual core XTEST pointer'
+7,6,947,850,0,0,0,2271476,4,'Virtual core XTEST pointer'
+7,6,947,851,0,0,0,2271479,4,'Virtual core XTEST pointer'
+7,6,947,852,0,0,0,2271486,4,'Virtual core XTEST pointer'
+7,6,948,855,0,0,0,2271499,4,'Virtual core XTEST pointer'
+7,6,948,856,0,0,0,2271514,4,'Virtual core XTEST pointer'
+7,6,948,857,0,0,0,2271518,4,'Virtual core XTEST pointer'
+7,6,948,860,0,0,0,2271535,4,'Virtual core XTEST pointer'
+7,6,948,861,0,0,0,2271545,4,'Virtual core XTEST pointer'
+7,6,948,862,0,0,0,2271565,4,'Virtual core XTEST pointer'
+7,6,948,863,0,0,0,2271600,4,'Virtual core XTEST pointer'
+7,6,948,865,0,0,0,2271614,4,'Virtual core XTEST pointer'
+7,6,947,866,0,0,0,2271624,4,'Virtual core XTEST pointer'
+7,6,946,866,0,0,0,2271634,4,'Virtual core XTEST pointer'
+7,6,945,867,0,0,0,2271646,4,'Virtual core XTEST pointer'
+7,6,944,867,0,0,0,2271667,4,'Virtual core XTEST pointer'
+7,6,943,867,0,0,0,2271678,4,'Virtual core XTEST pointer'
+7,6,941,867,0,0,0,2271767,4,'Virtual core XTEST pointer'
+7,6,940,867,0,0,0,2271855,4,'Virtual core XTEST pointer'
+7,6,939,867,0,0,0,2271862,4,'Virtual core XTEST pointer'
+7,6,938,866,0,0,0,2271883,4,'Virtual core XTEST pointer'
+7,6,937,866,0,0,0,2271886,4,'Virtual core XTEST pointer'
+7,6,936,866,0,0,0,2271897,4,'Virtual core XTEST pointer'
+7,4,0,0,1,0,0,2272967,4,Virtual core XTEST pointer
+6,4,0,0,1,0,0,2272967,2,Virtual core pointer
+7,5,0,0,1,0,0,2273063,4,Virtual core XTEST pointer
+6,5,0,0,1,0,0,2273063,2,Virtual core pointer
+7,4,0,0,1,0,0,2273208,4,Virtual core XTEST pointer
+6,4,0,0,1,0,0,2273208,2,Virtual core pointer
+7,5,0,0,1,0,0,2273282,4,Virtual core XTEST pointer
+6,5,0,0,1,0,0,2273282,2,Virtual core pointer
+7,4,0,0,1,0,0,2273367,4,Virtual core XTEST pointer
+6,4,0,0,1,0,0,2273367,2,Virtual core pointer
+7,5,0,0,1,0,0,2273481,4,Virtual core XTEST pointer
+6,5,0,0,1,0,0,2273481,2,Virtual core pointer
+7,2,0,0,0,37,0,2273943,5,Virtual core XTEST keyboard
+6,2,0,0,0,37,0,2273943,3,Virtual core keyboard
+7,2,0,0,0,54,0,2274686,5,Virtual core XTEST keyboard
+6,2,0,0,0,54,0,2274686,3,Virtual core keyboard
+7,3,0,0,0,54,0,2274791,5,Virtual core XTEST keyboard
+6,3,0,0,0,54,0,2274791,3,Virtual core keyboard
+7,3,0,0,0,37,0,2275439,5,Virtual core XTEST keyboard
+6,3,0,0,0,37,0,2275439,3,Virtual core keyboard
+7,6,936,865,0,0,0,2275615,4,'Virtual core XTEST pointer'
+7,6,935,865,0,0,0,2275618,4,'Virtual core XTEST pointer'
+7,6,932,865,0,0,0,2275622,4,'Virtual core XTEST pointer'
+7,6,930,864,0,0,0,2275641,4,'Virtual core XTEST pointer'
+7,6,927,864,0,0,0,2275644,4,'Virtual core XTEST pointer'
+7,6,922,861,0,0,0,2275647,4,'Virtual core XTEST pointer'
+7,6,919,860,0,0,0,2275665,4,'Virtual core XTEST pointer'
+7,6,914,860,0,0,0,2275668,4,'Virtual core XTEST pointer'
+7,6,907,858,0,0,0,2275671,4,'Virtual core XTEST pointer'
+7,6,904,858,0,0,0,2275681,4,'Virtual core XTEST pointer'
+7,6,899,858,0,0,0,2275701,4,'Virtual core XTEST pointer'
+7,6,894,857,0,0,0,2275703,4,'Virtual core XTEST pointer'
+7,6,885,854,0,0,0,2275703,4,'Virtual core XTEST pointer'
+7,6,880,854,0,0,0,2275715,4,'Virtual core XTEST pointer'
+7,6,872,853,0,0,0,2275719,4,'Virtual core XTEST pointer'
+7,6,864,853,0,0,0,2275734,4,'Virtual core XTEST pointer'
+7,6,856,851,0,0,0,2275736,4,'Virtual core XTEST pointer'
+7,6,847,848,0,0,0,2275749,4,'Virtual core XTEST pointer'
+7,6,839,846,0,0,0,2275751,4,'Virtual core XTEST pointer'
+7,6,831,845,0,0,0,2275763,4,'Virtual core XTEST pointer'
+7,6,823,845,0,0,0,2275766,4,'Virtual core XTEST pointer'
+7,6,813,843,0,0,0,2275776,4,'Virtual core XTEST pointer'
+7,6,802,841,0,0,0,2275784,4,'Virtual core XTEST pointer'
+7,6,790,836,0,0,0,2275796,4,'Virtual core XTEST pointer'
+7,6,781,834,0,0,0,2275798,4,'Virtual core XTEST pointer'
+7,6,770,832,0,0,0,2275807,4,'Virtual core XTEST pointer'
+7,6,761,832,0,0,0,2275823,4,'Virtual core XTEST pointer'
+7,6,752,828,0,0,0,2275824,4,'Virtual core XTEST pointer'
+7,6,742,826,0,0,0,2275834,4,'Virtual core XTEST pointer'
+7,6,736,826,0,0,0,2275850,4,'Virtual core XTEST pointer'
+7,6,726,824,0,0,0,2275853,4,'Virtual core XTEST pointer'
+7,6,719,824,0,0,0,2275854,4,'Virtual core XTEST pointer'
+7,6,711,819,0,0,0,2275883,4,'Virtual core XTEST pointer'
+7,6,706,819,0,0,0,2275889,4,'Virtual core XTEST pointer'
+7,6,698,817,0,0,0,2275890,4,'Virtual core XTEST pointer'
+7,6,690,815,0,0,0,2275890,4,'Virtual core XTEST pointer'
+7,6,683,815,0,0,0,2275903,4,'Virtual core XTEST pointer'
+7,6,676,813,0,0,0,2275903,4,'Virtual core XTEST pointer'
+7,6,670,810,0,0,0,2275912,4,'Virtual core XTEST pointer'
+7,6,665,808,0,0,0,2275919,4,'Virtual core XTEST pointer'
+7,6,661,808,0,0,0,2275931,4,'Virtual core XTEST pointer'
+7,6,656,807,0,0,0,2275934,4,'Virtual core XTEST pointer'
+7,6,649,805,0,0,0,2275944,4,'Virtual core XTEST pointer'
+7,6,645,805,0,0,0,2275952,4,'Virtual core XTEST pointer'
+7,6,640,805,0,0,0,2275964,4,'Virtual core XTEST pointer'
+7,6,635,802,0,0,0,2275966,4,'Virtual core XTEST pointer'
+7,6,629,802,0,0,0,2275974,4,'Virtual core XTEST pointer'
+7,6,623,801,0,0,0,2275984,4,'Virtual core XTEST pointer'
+7,6,619,801,0,0,0,2275996,4,'Virtual core XTEST pointer'
+7,6,613,801,0,0,0,2275998,4,'Virtual core XTEST pointer'
+7,6,608,799,0,0,0,2276008,4,'Virtual core XTEST pointer'
+7,6,602,799,0,0,0,2276020,4,'Virtual core XTEST pointer'
+7,6,599,798,0,0,0,2276022,4,'Virtual core XTEST pointer'
+7,6,593,798,0,0,0,2276032,4,'Virtual core XTEST pointer'
+7,6,591,798,0,0,0,2276044,4,'Virtual core XTEST pointer'
+7,6,585,798,0,0,0,2276046,4,'Virtual core XTEST pointer'
+7,6,579,798,0,0,0,2276054,4,'Virtual core XTEST pointer'
+7,6,574,798,0,0,0,2276063,4,'Virtual core XTEST pointer'
+7,6,568,798,0,0,0,2276074,4,'Virtual core XTEST pointer'
+7,6,563,798,0,0,0,2276078,4,'Virtual core XTEST pointer'
+7,6,557,798,0,0,0,2276088,4,'Virtual core XTEST pointer'
+7,6,551,798,0,0,0,2276095,4,'Virtual core XTEST pointer'
+7,6,546,796,0,0,0,2276106,4,'Virtual core XTEST pointer'
+7,6,541,795,0,0,0,2276110,4,'Virtual core XTEST pointer'
+7,6,535,795,0,0,0,2276118,4,'Virtual core XTEST pointer'
+7,6,530,795,0,0,0,2276127,4,'Virtual core XTEST pointer'
+7,6,527,795,0,0,0,2276138,4,'Virtual core XTEST pointer'
+7,6,522,795,0,0,0,2276142,4,'Virtual core XTEST pointer'
+7,6,516,795,0,0,0,2276152,4,'Virtual core XTEST pointer'
+7,6,513,795,0,0,0,2276163,4,'Virtual core XTEST pointer'
+7,6,509,795,0,0,0,2276166,4,'Virtual core XTEST pointer'
+7,6,503,795,0,0,0,2276174,4,'Virtual core XTEST pointer'
+7,6,498,795,0,0,0,2276184,4,'Virtual core XTEST pointer'
+7,6,494,795,0,0,0,2276196,4,'Virtual core XTEST pointer'
+7,6,491,795,0,0,0,2276198,4,'Virtual core XTEST pointer'
+7,6,487,795,0,0,0,2276208,4,'Virtual core XTEST pointer'
+7,6,486,795,0,0,0,2276219,4,'Virtual core XTEST pointer'
+7,6,484,795,0,0,0,2276222,4,'Virtual core XTEST pointer'
+7,6,480,795,0,0,0,2276239,4,'Virtual core XTEST pointer'
+7,6,476,795,0,0,0,2276249,4,'Virtual core XTEST pointer'
+7,6,474,795,0,0,0,2276254,4,'Virtual core XTEST pointer'
+7,6,469,795,0,0,0,2276264,4,'Virtual core XTEST pointer'
+7,6,467,795,0,0,0,2276274,4,'Virtual core XTEST pointer'
+7,6,462,795,0,0,0,2276278,4,'Virtual core XTEST pointer'
+7,6,458,795,0,0,0,2276288,4,'Virtual core XTEST pointer'
+7,6,454,795,0,0,0,2276295,4,'Virtual core XTEST pointer'
+7,6,449,795,0,0,0,2276306,4,'Virtual core XTEST pointer'
+7,6,445,795,0,0,0,2276310,4,'Virtual core XTEST pointer'
+7,6,443,795,0,0,0,2276320,4,'Virtual core XTEST pointer'
+7,6,437,795,0,0,0,2276327,4,'Virtual core XTEST pointer'
+7,6,431,796,0,0,0,2276339,4,'Virtual core XTEST pointer'
+7,6,425,799,0,0,0,2276342,4,'Virtual core XTEST pointer'
+7,6,420,799,0,0,0,2276350,4,'Virtual core XTEST pointer'
+7,6,414,802,0,0,0,2276360,4,'Virtual core XTEST pointer'
+7,6,407,803,0,0,0,2276373,4,'Virtual core XTEST pointer'
+7,6,403,805,0,0,0,2276375,4,'Virtual core XTEST pointer'
+7,6,395,806,0,0,0,2276386,4,'Virtual core XTEST pointer'
+7,6,387,809,0,0,0,2276390,4,'Virtual core XTEST pointer'
+7,6,382,811,0,0,0,2276400,4,'Virtual core XTEST pointer'
+7,6,374,812,0,0,0,2276412,4,'Virtual core XTEST pointer'
+7,6,366,816,0,0,0,2276414,4,'Virtual core XTEST pointer'
+7,6,358,819,0,0,0,2276424,4,'Virtual core XTEST pointer'
+7,6,353,819,0,0,0,2276431,4,'Virtual core XTEST pointer'
+7,6,349,821,0,0,0,2276448,4,'Virtual core XTEST pointer'
+7,6,342,822,0,0,0,2276451,4,'Virtual core XTEST pointer'
+7,6,337,822,0,0,0,2276454,4,'Virtual core XTEST pointer'
+7,6,332,825,0,0,0,2276471,4,'Virtual core XTEST pointer'
+7,4,0,0,1,0,0,2276679,4,Virtual core XTEST pointer
+6,4,0,0,1,0,0,2276679,2,Virtual core pointer
+7,5,0,0,1,0,0,2276786,4,Virtual core XTEST pointer
+6,5,0,0,1,0,0,2276786,2,Virtual core pointer
