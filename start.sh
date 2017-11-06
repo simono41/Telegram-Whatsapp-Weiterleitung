@@ -5,8 +5,8 @@ set -ex
 while true
 do
 import -frame screenshot.jpg &
-./cnee-play-WA-TG.sh
+./cnee-play.sh WA-TG
 import -frame screenshot.jpg &
-./cnee-play-TG-WA.sh
+./cnee-play.sh TG-WA
 sleep 60
 done

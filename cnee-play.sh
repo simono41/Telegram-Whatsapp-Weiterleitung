@@ -1,1 +1,1 @@
-cnee --replay -f xnee.xns -ns
+cnee --replay -f $1.xns -ns
